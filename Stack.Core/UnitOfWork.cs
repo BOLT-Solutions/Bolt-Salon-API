@@ -19,6 +19,11 @@ namespace Stack.Core
             UserManager = userManager;
             RoleManager = roleManager;
         }
+
+        /// <summary>
+        /// ///////
+        /// </summary>
+        /// <returns></returns>
         public async Task<bool> SaveChangesAsync()
         {
             try
